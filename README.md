@@ -9,7 +9,7 @@ Static legal site for **Lvoq Stream**, built with React + Vite for GitHub Pages.
 | Home | `https://pabelandino.github.io/privacyandterms/` |
 | Privacy Policy | `https://pabelandino.github.io/privacyandterms/privacy` |
 | Terms of Service | `https://pabelandino.github.io/privacyandterms/terms` |
-| Meta OAuth redirect | `https://pabelandino.github.io/privacyandterms/auth/facebook` |
+| Meta OAuth redirect | `https://pabelandino.github.io/privacyandterms/auth/facebook/` (trailing slash) |
 
 ## Local development
 
