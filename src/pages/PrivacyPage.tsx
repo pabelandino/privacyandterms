@@ -15,8 +15,8 @@ export function PrivacyPage() {
       <p>
         This Privacy Policy describes how Lvoq Stream (&quot;we&quot;, &quot;us&quot;, or
         &quot;our&quot;) collects, uses, and shares information when you use our
-        mobile and desktop application (Bundle ID <code>com.lvoqstream.app</code>),
-        including optional Facebook Login and live streaming features.
+        mobile and desktop application, including optional Facebook Login and live
+        streaming features.
       </p>
 
       <h2>1. Information we collect</h2>

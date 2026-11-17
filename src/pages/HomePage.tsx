@@ -22,7 +22,6 @@ export function HomePage() {
           <span className="hint"> (Meta redirect URI)</span>
         </li>
       </ul>
-      <p className="meta">Bundle ID: <code>com.lvoqstream.app</code></p>
     </article>
   );
 }

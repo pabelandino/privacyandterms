@@ -1,6 +1,6 @@
 # Lvoq Stream — Privacy & Terms
 
-Static legal site for **Lvoq Stream** (`com.lvoqstream.app`), built with React + Vite for GitHub Pages.
+Static legal site for **Lvoq Stream**, built with React + Vite for GitHub Pages.
 
 ## URLs (after Pages is enabled)
 
