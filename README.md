@@ -29,8 +29,17 @@ npm run preview
 
 ## GitHub Pages
 
-1. Repository **Settings → Pages** → Source: **GitHub Actions**.
-2. Push to `main`; workflow `Deploy GitHub Pages` publishes `dist/`.
+Production is served from the **`gh-pages`** branch (built `dist/`), not from `main` (source only).
+
+```bash
+npm ci
+npm run build
+npx gh-pages -d dist
+```
+
+Settings → **Pages** → Source: branch **`gh-pages`**, folder **`/`**.
+
+If the home page is blank and the console shows `/src/main.tsx` 404, Pages is pointing at `main` by mistake.
 
 ## Meta / Facebook
 
