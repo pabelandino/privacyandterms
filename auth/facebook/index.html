@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Facebook sign-in — Lvoq Stream</title>
+    <style>
+      body {
+        font-family: system-ui, -apple-system, Segoe UI, sans-serif;
+        max-width: 32rem;
+        margin: 3rem auto;
+        padding: 0 1.25rem;
+        line-height: 1.5;
+        color: #1a1a1a;
+      }
+      h1 {
+        font-size: 1.35rem;
+      }
+    </style>
+  </head>
+  <body>
+    <h1 id="title">Completing sign-in…</h1>
+    <p id="message">You can close this window and return to Lvoq Stream.</p>
+    <script>
+      (function () {
+        var hash = window.location.hash || "";
+        var title = document.getElementById("title");
+        var message = document.getElementById("message");
+        if (hash.indexOf("access_token=") !== -1) {
+          title.textContent = "Sign-in complete";
+          message.textContent =
+            "Close this window and return to Lvoq Stream.";
+        } else if (hash.indexOf("error=") !== -1) {
+          title.textContent = "Sign-in did not complete";
+          message.textContent =
+            "Facebook reported an error. Close this window and try again from the app.";
+        }
+      })();
+    </script>
+  </body>
+</html>
