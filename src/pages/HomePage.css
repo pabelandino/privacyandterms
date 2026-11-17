@@ -1,0 +1,45 @@
+.card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 14px;
+  padding: 1.75rem 1.5rem;
+}
+
+.card h1 {
+  margin: 0 0 0.75rem;
+  font-size: 1.75rem;
+}
+
+.lede {
+  color: var(--muted);
+  margin: 0 0 1.5rem;
+}
+
+.link-list {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 1.5rem;
+}
+
+.link-list li {
+  margin-bottom: 0.65rem;
+  font-size: 1.05rem;
+}
+
+.hint {
+  color: var(--muted);
+  font-size: 0.9rem;
+}
+
+.meta {
+  font-size: 0.85rem;
+  color: var(--muted);
+  margin: 0;
+}
+
+code {
+  font-size: 0.9em;
+  background: var(--bg);
+  padding: 0.15rem 0.4rem;
+  border-radius: 4px;
+}

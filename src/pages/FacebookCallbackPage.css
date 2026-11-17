@@ -1,0 +1,18 @@
+.callback {
+  text-align: center;
+  padding: 3rem 1.5rem;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 14px;
+}
+
+.callback h1 {
+  margin-top: 0;
+  font-size: 1.4rem;
+}
+
+.callback p {
+  color: var(--muted);
+  max-width: 28rem;
+  margin: 0.75rem auto 0;
+}
